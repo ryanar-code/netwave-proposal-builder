@@ -1,0 +1,102 @@
+Internal Estimate,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8
+,,,,,,,,
+Client:,,,,,,,,
+TBD,,,,,,,,
+,,,,,,,,
+Project:,,,,,,,,
+TBD,,,,,,,,
+,,,,,,,,
+Date Estimated:,,,,,,,,
+TBD,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Phase,Activity,Scope of Work,Description,Team,Hours,Rate,Total,Notes
+Phase 1,Account Service,Internal Project Kickoff,"Time allocated for the internal team to align on project objectives, deliverables, timelines, and roles before beginning work. ",,0,100,0,"This should include Kellie, the account manager and the web team. This call should be limited to 30 or 45 minutes depending on the scope."
+Phase 1,Creative Direction,Prep for Client Kickoff Call,"Conduct industry research, analyze competitors, and gather design inspiration. Review project brief and client-provided materials in preparation for the kickoff call.",Nick,0,150,0,This might be optional if Nick was involved in prior client conversations. 
+Phase 1,Account Service,Client Project Kickoff,"Meeting with client to align on goals, functionality and strategy for inspiration research.",,0,100,0,"Indicate if this is a call or an in-person meeting and the duration. If in-person, include a new line for travel if more than 30+ minutes away. "
+Phase 1,Creative Direction,Research & Inspiration,"Curate a selection of website links that embody different design options, each accompanied by a short description. These options are presented to the client in a Netwave branded document to gather feedback and refine the design direction.",Nick,0,150,0,
+Phase 1,Account Service,Research & Inspiration Client Presentation,"Share the selected website links and descriptions with the client, allowing them to review and provide detailed feedback.",,0,100,0,"Indicate if this is a call or an in-person meeting and the duration. If in-person, include a new line for travel if more than 30+ minutes away. "
+Phase 1,Account Service,Phase 1 Account Service,"Extra time padded for client communication and coordination to ensure project alignment, satisfaction, and success. This includes managing timelines, facilitating feedback, organizing meetings and emails, translating client needs to the internal team, and overseeing deliverables.",,0,100,0,Excludes meetings.
+Phase 2,Account Service,Internal Recap Call - Phase 2,"Time allocated for the internal team to align on project objectives, deliverables, timelines, and roles before beginning work.",,0,100,0,"This should include Kellie, the account manager and the web team. This call should be limited to 30 or 45 minutes depending on the scope."
+Phase 2,Copywriting,Copywriting,"Prep and calls with client point of contact, owner, and other stakeholders.",Daniel,0,150,0,
+Phase 2,Copywriting,Copywriting,TBD,Daniel,0,150,0,
+Phase 2,Copywriting,Copywriting - REVISIONS,TBD,Daniel,0,150,0,
+Phase 2,Creative Direction,Lightbox Creation or Brand Asset Review,"Time allocated to either curate a lightbox of stock images aligned with the client’s brand and project goals—using provided keywords, phrases, and visual guidelines—or to review and assess client-provided assets for quality, consistency, and suitability. This includes time for sourcing or reviewing, organizing, and presenting imagery for client approval prior to design.",,0,150,0,
+Phase 2,Website Design,Website Stylesheet,"The stylesheet serves as the visual guide for the website’s design. Design a website stylesheet that includes the following elements:
+- Typography (headers, body, links) 
+- Color Palette
+- Button Styles
+- Form Styles
+- Favicon",,0,150,0,
+Phase 2,Account Service,Website Stylesheet - CLIENT PRESENTATION,Present the stylesheet to the client for approval or revision feedback. ,,0,100,0,"Indicate if this is a call or an in-person meeting and the duration. If in-person, include a new line for travel if more than 30+ minutes away. "
+Phase 2,Website Design,Website Stylesheet - REVISIONS,TBD,,0,150,0,
+Phase 2,Website Design,Website Wireframe,"The wireframe serves as the blueprint for the website’s design and functionality. Design a wireframe for the unique pages of the website that outlines the structure and layout, including elements such as navigation menus, content sections, image placements, buttons, and forms.
+
+XX unique pages",,0,150,0,WordPress Only
+Phase 2,Account Service,Website Wireframe - CLIENT PRESENTATION,Present the wireframe to the client for approval or revision feedback.,,0,100,0,"WordPress Only - Indicate if this is a call or an in-person meeting and the duration. If in-person, include a new line for travel if more than 30+ minutes away. "
+Phase 2,Website Design,Website Wireframe - REVISIONS,Make 1 round of revisions to the website wireframe based on client feedback.,,0,150,0,WordPress Only
+Phase 2,Website Design,Website Design,"Based on the approved stylesheet and wireframe, develop both low-fidelity and high-fidelity page mockups, focusing on layout, styling, and user experience.
+
+Initial Design: Home page, one inside page
+Remaining Unique Pages: XX total",,0,150,0,
+Phase 2,Account Service,Website Design - CLIENT PRESENTATION,Present initial page mockups to the client.,,0,100,0,"Indicate if this is a call or an in-person meeting and the duration. If in-person, include a new line for travel if more than 30+ minutes away. "
+Phase 2,Website Design,Website Design - REVISIONS,"Two rounds overall:
+
+- Initial Design, 1 round
+- Remaining Unique Pages, 1 round ",,0,150,0,
+Phase 2,Account Service,Client Website Feedback Call,,,0,100,0,
+Phase 2,Account Service,Internal Website Feedback and Design Progress Call ,,,0,100,0,
+Phase 2,Creative Direction,Creative Direction ,"Oversee the creative of project from start to finish, ensuring every stage aligns with the established goals and vision. Monitor progress, review deliverables, and provide detailed feedback to the team.  ",Nick,0,150,0,
+Phase 2,Account Service,Phase 2 Account Service,"Extra time padded for client communication and coordination to ensure project alignment, satisfaction, and success. This includes managing timelines, facilitating feedback, organizing meetings and emails, translating client needs to the internal team, and overseeing deliverables.",,0,100,0,Excludes meetings.
+Phase 3,Account Service,Internal Recap Call - Phase 3,"Time allocated for the internal team to align on project objectives, deliverables, timelines, and roles before beginning work.",,0,100,0,
+Phase 3,Website Development,Initial Local Theme Development,Set up and customize a WordPress theme in a local development environment to establish the foundation of the website.,Christian,0,150,0,WordPress Only
+Phase 3,Website Development,Staging Environment Configuration,"Create a secure, online staging site to test and refine the website before launch.",Christian,0,150,0,WordPress Only
+Phase 3,Website Development,Develop Blog Section,"Building and configuring the blog section, including layout, post categories, and key features for seamless content management.",Christian,0,150,0,WordPress Only
+Phase 3,Website Development,Features + Micro Interaction Development,Implementing custom functionality and subtle animations to enhance user experience and engagement.,Christian,0,150,0,WordPress Only
+Phase 3,Website Development,Theme Builder Compatability,Develop custom theme files necessary for Elementor builder integration and code compatibility.,Christian,0,150,0,WordPress Only
+Phase 3,Website Development,Custom Feature TBD,TBD,Christian,0,150,0,Optional
+Phase 3,Website Development,Content Population,"Populate pages with finalized images and copy. Configure and test forms.
+
+XX total pages
+XX total posts, etc.",,0,150,0,
+Phase 3,Account Service,Website Development - CLIENT FEEDBACK CALL,Call to review website feedback with client. ,,0,100,0,
+Phase 3,Website Development,Website Development - REVISIONS,"Make up to 2 rounds of revisions based on client feedback, ensuring design and functionality align with project goals.",,0,150,0,
+Phase 3,Account Service,Phase 3 Account Service,"Extra time padded for client communication and coordination to ensure project alignment, satisfaction, and success. This includes managing timelines, facilitating feedback, organizing meetings and emails, translating client needs to the internal team, and overseeing deliverables.",,0,100,0,Excludes meetings.
+Phase 4,Account Service,Launch Prep Call,Call with the client to coordinate launch plans. ,,,100,0,
+Phase 4,Website Development,Launch,"Launch website to hosting server (e.g., Configure SSL, DNS, Cache, image optimization, redirects, security)",Christian,4,150,600,WordPress Only
+Phase 4,Production Management,Squarespace Launch,"Purchase Squarespace subscription, connect domain name.",Kellie,1,100,100,Squarespace Only
+Phase 4,Account Service,PDF Training Guide,"A customized, easy-to-follow guide covering key features and functionality of your new Squarespace website, ensuring your team can confidently manage content updates.",,0,100,0,Optional
+Phase 4,Account Service,Training Session,"A hands-on walkthrough of your new website, guiding your team through essential tasks like editing content, managing media, and using key plugins.",,0,100,0,Optional
+Phase 4,Website Development,Post Launch Quality Control,"Two week period to fix any bugs or issues on site. Including:
+
+Spelling/grammar fixes
+Updating or swapping out images
+Changing wording or messaging on specific pages
+Adjusting headings, CTAs, or button text
+Changing colors, fonts, or spacing
+Adjusting padding/margins
+Swapping banner images or hero sections
+Refining mobile or tablet responsiveness
+Changing icon styles or graphics
+Updating menu structure or labeling
+Improving accessibility (contrast, alt text, keyboard navigation)
+Editing contact forms & routing
+Fixing broken links or 404s
+Improving page speed or optimizing images",Christian,5,150,750,Optional
+Phase 4,Account Service,Phase 4 Account Service,"Extra time padded for client communication and coordination to ensure project alignment, satisfaction, and success. This includes managing timelines, facilitating feedback, organizing meetings and emails, translating client needs to the internal team, and overseeing deliverables.",,0,100,0,Excludes meetings.
+Phase 4,Squarespace Subscription,Squarespace Subscription,"Business Plan - Annual Renewal
+
+The Squarespace subscription will be purchased by Netwave under our main account. We will bill the client the gross amount. Subscriptions are due in full prior to site launch.					",,,276,386.4,Squarespace Only
+Phase Padding,Production Management,Production Management,"Oversight of the website project from initiation through final delivery. This includes task scheduling, timeline management, resource coordination, internal workflow tracking, quality control, and ensuring all project milestones are met.","Kellie, Cassidy",0,100,0,Excludes meetings.
+Phase Padding,Formulating New Business,Formulating New Business,"Time dedicated to researching, strategizing, and preparing materials to pursue new business opportunities. This includes discovery, proposal development, estimating, internal planning, and presentation efforts aimed at securing new client partnerships or expanding existing relationships.",,0,100,0,
+,,,,,,,1836.4,
+,,,,,,,,
+Client:,,,,,,,,
+TBD,,,,,,,,
+,,,,,,,,
+Project:,,,,,,,,
+TBD,,,,,,,,
+,,,,,,,,
+Date Estimated:,,,,,,,,
+TBD,,,,,,,,

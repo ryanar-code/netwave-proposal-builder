@@ -1,0 +1,20 @@
+Internal Estimate,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8
+,,,,,,,,
+Client:,,,,,,,,
+Company,,,,,,,,
+,,,,,,,,
+Project:,,,,,,,,
+Social Media Audit,,,,,,,,
+,,,,,,,,
+Date Estimated:,,,,,,,,
+2026-01-01 00:00:00,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Phase,Service ,Task,Description,Team,Hours,Rate,Total,Notes / Explanations
+1. Audit ,Social Media Management,Social Media Audit,"Conduct an in-depth social media audit that assesses the effectiveness of your current social media efforts, and those of your main competitors, with the goal of gaining a thorough understanding of both your business and your respective industry as a whole. We will then present our findings to the client for review.",Meg,4,125,500,
+1. Audit ,Social Media Management,Social Audit Presentation,"Present the Social Media Audit to the client, highlighting key elements and providing guidance on its implementation.",Meg,1,125,125,
+1. Audit ,Account Management,Social Audit Presentation,"Present the Social Media Audit to the client, highlighting key elements and providing guidance on its implementation.",,1,100,100,"This should be a call that includes Meg, the account manager, Cassidy, sometimes Nick. This should be an hour call. "
+1. Audit ,Production Managment,Production Management ,"Time dedicated to planning, scheduling, and overseeing the execution of work to ensure the project stays on track, on time, and within scope.",Cassidy,0,100,0,
+1. Audit ,Account Management,Account Management ,"Your Account Manager will coordinate this project with you from start to finish. Their time will include emails, phone calls, and meetings to discuss project details and progress.",,0,100,0,
+1. Audit ,Formulating New Business,,,,0,100,0,
+Total Cost:,,,,,,,725,

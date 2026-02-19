@@ -1,0 +1,187 @@
+PROJECT KICKOFF CALL TRANSCRIPT
+═══════════════════════════════════════════════════════════
+
+Project: Quantum Analytics - SaaS Platform Redesign
+Date: February 13, 2026
+Time: 10:00 AM - 11:15 AM PST
+Duration: 1 hour 15 minutes
+
+ATTENDEES:
+- Jennifer Parks (Client - VP Product, Quantum Analytics)
+- David Wong (Client - Head of Design, Quantum Analytics)
+- Marcus Thompson (Agency - Creative Director)
+- Rachel Kim (Agency - Lead Designer)
+- Tom Sullivan (Agency - Project Manager)
+
+═══════════════════════════════════════════════════════════
+
+[10:02] Tom Sullivan:
+Great, everyone's here. Thanks for joining. Let's dive in. Jennifer, David, can you start by giving us the big picture? What's driving this redesign?
+
+[10:03] Jennifer Parks:
+Sure. So Quantum Analytics has been around for 5 years now. We started as a data visualization tool for small teams, but we've evolved significantly. Our customers are now mid-sized to enterprise companies, and honestly, our product looks and feels like it was built for the startup world, which it was. We've added so many features over the years that the UX is becoming cluttered and confusing.
+
+[10:04] David Wong:
+Yeah, I'll add to that. From a design perspective, we have a lot of technical debt. We've been in "ship it fast" mode since the beginning, and now we're paying the price. No consistent design system, every feature looks different, and our dashboard hasn't been fundamentally rethought since 2021. We're losing deals to competitors who just *look* more professional, even if their features aren't as strong.
+
+[10:05] Marcus Thompson:
+That's a common challenge with fast-growing SaaS companies. When did you start noticing this becoming a real business problem?
+
+[10:06] Jennifer Parks:
+About 6 months ago. We started losing enterprise deals in the final stages. When we asked for feedback, the responses were like "it feels like a tool, not a platform" or "the UI seems dated compared to alternatives." That was a wake-up call. We're also seeing higher churn with new users - our activation rate dropped from 65% to 48% over the past year.
+
+[10:07] Rachel Kim:
+Wow, that's significant. Have you done any user research to understand the specific pain points?
+
+[10:08] David Wong:
+Yes, actually we just completed a round of interviews last month. The main themes were: information overload on the dashboard, confusing navigation - people can't find features, mobile experience is basically unusable, and the whole thing feels "engineering-first" rather than "user-first." Users also mentioned the design feels corporate and boring, not innovative, which is ironic because our analytics capabilities are actually quite advanced.
+
+[10:09] Jennifer Parks:
+Right. We need to communicate sophistication and power, but make it accessible. Think Stripe - clean, beautiful, but doesn't dumb things down. Our users are data analysts and business intelligence folks, so they're technical but they still want elegance.
+
+[10:11] Marcus Thompson:
+That's a great reference. What are your thoughts on the timeline? I know you mentioned wanting to launch by Q3.
+
+[10:12] Jennifer Parks:
+Ideally, we'd like to start rolling this out by late June, with full launch by end of July. We have our annual user conference in August, and it would be incredible to showcase the new platform there. Is that realistic?
+
+[10:13] Tom Sullivan:
+That gives us roughly 4.5 months. It's tight but doable if we're aligned on scope and can move quickly through approvals. We'd need to nail down the design system in the first month, then move aggressively into implementation. Any must-have features for the initial launch versus things that could be phased?
+
+[10:15] David Wong:
+The core dashboard redesign is non-negotiable. That's what users see first and where they spend 80% of their time. Report builder also needs work - it's powerful but intimidating right now. Beyond that, I think we could phase things like the admin panel, settings pages, and some of the secondary features.
+
+[10:16] Jennifer Parks:
+Agreed. Dashboard and report builder are the heroes. Everything else can follow. We also need mobile to be functional, at least for viewing reports. Creating reports on mobile is secondary.
+
+[10:17] Rachel Kim:
+Makes sense. What about your current tech stack? Are we redesigning within existing constraints, or is there flexibility to rebuild components?
+
+[10:18] David Wong:
+We're on React with a custom component library that's... let's just say not great. We're open to implementing a proper design system with better component architecture. We have two frontend engineers who'll be dedicated to this project full-time, plus we can pull in additional resources if needed.
+
+[10:20] Marcus Thompson:
+Perfect. That kind of partnership is crucial. Let's talk about brand alignment. Do you want this redesign to feel like an evolution of your current aesthetic, or are you open to a more dramatic shift?
+
+[10:21] Jennifer Parks:
+We love our brand colors - the teal and purple combo - but the application of them in the product is inconsistent and sometimes garish, honestly. The logo is solid, but everything else is fair game. I'd say evolution rather than revolution, but a bold evolution.
+
+[10:22] David Wong:
+I have examples of what I mean. [shares screen] Look at our current dashboard. Lots of harsh borders, inconsistent spacing, clashing colors. Now look at this mockup I threw together last week just to visualize the problem. This is more the direction I'm thinking - cleaner, more whitespace, intentional use of color, softer shadows. But this is super rough.
+
+[10:24] Rachel Kim:
+I actually like where your head's at, David. That feels like a much more mature platform. We can definitely refine that direction. What about data visualization style? Are you using any charting libraries currently?
+
+[10:25] David Wong:
+We're using Recharts, but we're not married to it. The bigger issue is consistency - every chart type looks different because different engineers built them at different times. We need standardized chart styles, consistent tooltips, unified interaction patterns.
+
+[10:27] Tom Sullivan:
+Jennifer, from a business perspective, what does success look like? How will you measure if this redesign worked?
+
+[10:29] Jennifer Parks:
+Great question. First, activation rate back above 60%, ideally 70%. Second, we want to see reduction in support tickets related to "how do I..." questions - that'll indicate better usability. Third, and this is harder to measure, but we want to win more enterprise deals. Our close rate with enterprise should improve from current 22% to at least 35%. And qualitatively, we want users to actually compliment the design. Right now we get compliments on features and functionality, but never on the experience itself.
+
+[10:31] Marcus Thompson:
+Those are concrete goals we can design toward. What about the team structure and decision-making? Who's the final approver on design and functionality decisions?
+
+[10:32] Jennifer Parks:
+I have final approval, but I trust David implicitly on design decisions. For anything involving product strategy or feature changes, it's me. For pure design and UX, David can approve. We also have our CEO, Alan, who'll want to see major milestones, but he's generally hands-off if the product team is confident.
+
+[10:33] David Wong:
+And I'm not precious about my ideas. If you have strong rationale for a direction, I'm open. I just don't want design-by-committee where we water everything down.
+
+[10:34] Marcus Thompson:
+Totally understand. We'll present clear recommendations backed by research and best practices, and you can push back if something doesn't feel right for your users. That collaborative tension usually produces the best results.
+
+[10:36] Rachel Kim:
+One more thing - do you have a design system or brand guidelines document we should be aware of?
+
+[10:37] David Wong:
+[laughs] We have a half-finished Figma file that's more aspirational than actual. I can share it, but don't consider it gospel. Think of it as a starting point that needs a lot of love.
+
+[10:38] Tom Sullivan:
+Okay, let me outline what I'm thinking for phases. Phase 1: Discovery and design system foundation - 3 weeks. We'll do user research validation, competitive analysis, and build out the core design system with key components. Phase 2: Dashboard and report builder design - 4 weeks. This is the meat of the project. Phase 3: Development and implementation - 8 weeks, overlapping with any additional screen designs for secondary features. Phase 4: Testing and refinement - 2 weeks. That puts us at roughly 17 weeks, which lands us at late June. Thoughts?
+
+[10:41] Jennifer Parks:
+That timeline feels aggressive but manageable if we can commit to fast feedback cycles. Our bottleneck is usually getting everyone aligned internally, but if it's just David and me reviewing with quick turnarounds, we can make it work.
+
+[10:42] David Wong:
+Agreed. I can commit to 48-hour turnaround on reviews, and we can do weekly check-ins to keep momentum.
+
+[10:43] Marcus Thompson:
+Perfect. Weekly check-ins are essential. I'd also suggest we do a mid-phase design presentation with Alan and any other key stakeholders so there are no surprises later.
+
+[10:44] Jennifer Parks:
+Good idea. Week 6 would be ideal - after we've solidified the design system and initial dashboard concepts, but before we're too far into development.
+
+[10:46] Tom Sullivan:
+I'll get that on the calendar. Let's talk budget and resources. You mentioned two dedicated frontend engineers. Will they be working on this exclusively, or are they juggling other priorities?
+
+[10:47] David Wong:
+Exclusively for the core 8-week development phase. Before that, they'll be wrapping up current sprint work, but once we hand off designs, they're 100% on this. We're also planning to pause new feature development during that period to minimize distractions.
+
+[10:49] Jennifer Parks:
+From a budget standpoint, we have $180,000 allocated. We're also comfortable going to $200K if we need to pull in additional resources or extend timeline slightly. Is that in the ballpark of what you were thinking?
+
+[10:50] Marcus Thompson:
+That's a healthy budget for this scope. Based on the phases Tom outlined and the team we'd dedicate, I think we're looking at around $165,000 to $185,000 depending on final scope decisions and any pivots during the process. We'll formalize that in the proposal.
+
+[10:52] Rachel Kim:
+One thing I want to make sure we capture - are there any sacred cows? Features or elements that are off-limits or must be preserved as-is?
+
+[10:54] David Wong:
+Hmm, good question. The "Collections" feature - which lets users organize reports into folders - is beloved by power users. The underlying functionality needs to stay, but the UI could definitely be improved. Other than that, I can't think of anything that's untouchable.
+
+[10:55] Jennifer Parks:
+Oh, one thing - we have a "Dark Mode" that maybe 30% of users enable. It's currently pretty rough, but we need to maintain that option. Lots of users work late hours and really value it.
+
+[10:56] Rachel Kim:
+Noted. We'll design for both light and dark modes from the start. It's actually easier to do that upfront than retrofit later.
+
+[10:58] Tom Sullivan:
+We're coming up on time. Any other questions or concerns we should address before we wrap?
+
+[10:59] David Wong:
+Just one - what's your preferred collaboration approach? Figma? Regular prototypes? How do you like to share work in progress?
+
+[11:01] Rachel Kim:
+We work primarily in Figma, so we can give you view access and you can follow along in real-time if you want. For major milestones, we'll present polished prototypes, but for week-to-week progress, you can literally watch us design. Some clients love that transparency, others find it distracting.
+
+[11:02] David Wong:
+I love that. I'll probably check in 2-3 times a week just to see progress, but I'll save feedback for our structured review sessions. I don't want to be that client who nitpicks every pixel as you're exploring.
+
+[11:03] Marcus Thompson:
+We appreciate that. Creative process is messy in the middle, and it's helpful when clients understand that.
+
+[11:05] Jennifer Parks:
+This has been great. I feel really good about the partnership. When can we expect the formal proposal and SOW?
+
+[11:06] Tom Sullivan:
+I'll have a draft to you by end of day Monday. It'll include everything we discussed - scope, timeline, budget, team structure, milestones, and deliverables. We can review on a call Tuesday or Wednesday and hopefully kick off by next Friday, February 21st.
+
+[11:07] Jennifer Parks:
+Perfect. Sending it to legal shouldn't take more than a day once we're aligned. Looking forward to it.
+
+[11:08] Marcus Thompson:
+Thanks, Jennifer, David. This is going to be a great project. We're excited to help bring Quantum Analytics to the next level.
+
+[11:09] David Wong:
+Likewise. Thanks, everyone.
+
+[11:10] Tom Sullivan:
+All right, we'll follow up with meeting notes and next steps. Have a great rest of your day.
+
+[END OF CALL - 11:10 AM]
+
+═══════════════════════════════════════════════════════════
+
+KEY TAKEAWAYS:
+- Timeline: ~4.5 months, target launch late June/early July
+- Budget: $180K-$200K allocated
+- Primary focus: Dashboard and Report Builder redesign
+- Success metrics: 60-70% activation rate, reduced support tickets, improved enterprise close rate
+- Design direction: Evolution not revolution, Stripe-like sophistication
+- Decision makers: Jennifer (final approval), David (design approval)
+- Tech: React, custom components, open to new design system
+- Must-haves: Dark mode support, Collections feature preservation
+- Next steps: Proposal by Monday EOD, kickoff February 21st

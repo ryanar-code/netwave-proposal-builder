@@ -1,0 +1,188 @@
+
+
+
+
+
+
+
+Website Design & Development
+
+
+
+
+Client:
+Name of Client
+
+Prepared by:
+Netwave Interactive
+Executive Summary
+A company’s website is a crucial marketing tool as it is often the first impression that potential customers have with a business. A well-designed website will enhance a company’s online presence, increase customer engagement, and ultimately boost sales.
+
+Netwave will design the new website to accomplish the following goals:
+	•	Goal 1 (example - simplify the navigation so customers can quickly locate needed services)
+	•	Goal 2 (example - Prominently display key services on the home page)
+	•	Goal 3 (Incorporate a project photo gallery to showcase recently completed projects)
+	•	Improve technology to appear properly on smart devices
+	•	Incorporate new branding
+	•	Support lead generation campaigns
+	•	Display new product offerings
+	•	Support SEO services 
+
+Page Count
+This proposal is based on an estimated total of approximately XX website pages, including a blog and case studies. Our scope and estimates for strategy, copywriting, design, development, and population are directly informed by this page count and the level of custom functionality required.
+During the project kickoff phase, we will review the full sitemap collaboratively with CLIENT to finalize the list of pages. Any changes to the total page count may impact the overall scope and estimate:
+	•	Fewer pages will reduce time required for copywriting, design, development, and content population.
+	•	Additional pages will increase time and scope, and may require a revised estimate and timeline.
+
+Sitemap
+The scope of work and estimates in this proposal are based on the sitemap below. The new website will include the following pages:
+
+Main Navigation: 
+Page
+Page
+Page
+	•	Sub page 1
+	•	Sub page 2
+	•	Sub page 3
+Page
+
+Unlinked / Footer Navigation:
+Page
+Page
+
+Scope of Work
+This proposal outlines the scope of work required to design, develop, and launch a custom WordPress website. Our process is structured in clearly defined phases, each led by a team of experienced professionals, to ensure a strategic, collaborative, and results-driven project.
+
+Project Kickoff
+We begin the project by aligning with the client on project goals, requirements, and creative direction. This phase includes preparation, collaborative discovery, and initial strategy deliverables to set a strong foundation for the new website.
+	•	Prep for Client Kickoff: Research competitors, review client materials, gather design inspiration
+	•	Client Kickoff Call: Meeting with the client to align on goals, vision, and key requirements
+	•	Research & Inspiration: Curate website examples with notes to explore potential design directions
+	•	Asset Review / Lightbox Creation: Review client-provided assets or source stock imagery for use in the design phase
+	•	Website Inspiration Presentation: Present curated website examples to gather feedback and guide design direction
+
+This phase includes one client kickoff meeting and one inspiration presentation. Any additional client-requested meetings during the kickoff phase will be considered out of scope and billed at our hourly rate of $100 per hour.
+
+
+Content
+In crafting your website, we understand the importance of content in capturing the attention of your audience and driving engagement. The content we provide will ensure your website communicates your message clearly, effectively, and in a tone that reflects your brand.
+Our copywriting process begins with a discovery phase, which includes a client interview to gather key insights, objectives, and tone preferences. We’ll also conduct research into your industry, competitors, and any existing content (if applicable) to identify opportunities and ensure consistency.
+Based on these findings, our copywriter will develop high-quality, original content tailored to your target audience. This includes writing and editing website copy for all designated pages, crafting compelling headlines, strategic calls to action, and brand-aligned messaging throughout.
+
+The scope includes:
+	•	Discovery + Prep: Stakeholder calls, research, and content planning
+	•	Copywriting: Drafting and editing all approved pages (page count to be defined)
+	•	Revisions: One round of revisions is included to fine-tune content based on client feedback
+
+Additional revisions, expanded copy needs, or requests beyond the agreed page count will be considered out of scope and billed at our hourly copywriting rate of $150 per hour.
+
+
+Imagery
+A strong visual strategy plays a key role in creating an engaging and cohesive website experience. For this project, we will utilize a combination of client-provided photos and carefully selected stock imagery to support the design and content of the site.
+CLIENT will be asked to assist in guiding the visual direction by providing brand guidelines, preferences, and target keywords. Based on this input, our team will curate a selection of stock images that align with the brand and website goals.
+To streamline the selection and approval process, we will create a shared lightbox where all proposed imagery can be easily reviewed and approved by the client.
+We may also recommend one or more on-site photoshoots to capture high-quality, custom imagery if existing assets or stock photography are not sufficient. Any photoshoots or additional image sourcing efforts will be estimated separately and are not included in this base proposal.
+
+Lightbox creation and image curation are included in the scope. Any significant changes to the approved image set or requests for additional sourcing rounds may be considered out of scope and billed accordingly.
+
+
+Client Provided Content & Imagery
+All page content and imagery will be provided by [CLIENT]. Any edits required to the content to make it usable will be considered out of scope of this proposal and will be estimated separately. If any additional imagery needs to be sourced by Netwave, this will also be estimated separately. 
+
+
+Website Design
+Our website design process also begins with an understanding of your brand, goals, and target audience. This includes a meeting with our designer to review inspiration, design preferences and project objectives.
+After this discussion, our team of designers will develop an interactive prototype using the program Adobe XD. This prototype will provide an interactive representation of the website's design and functionality. 
+
+After approval of the copy, the client will be presented with a home page design and an inside page design, including one round of revisions. With the approved copy and design materials, the website will be coded and presented to the client.  One rounds of revisions (excluding copy and layout already approved) are included before pushing the site live.
+
+Design is handled in structured phases—starting with visual guidelines and progressing to wireframes and polished mockups.
+	•	Website Stylesheet: Establishes design rules (typography, colors, buttons, etc.)
+	•	Wireframes: Blueprint for website structure and functionality (page list TBD)
+	•	Wireframe Presentation & Revisions
+	•	Website Mockups (XD Designs): 
+	•	Design Presentations
+	•	1 Round of Revisions
+
+Website Development
+Our design team will collaborate with the development team to ensure the seamless integration of the design into your website. 
+Our developer will install the website on our private staging environment and begin coding the website's design and functionality. This includes a custom website theme design, development of special functionality and features, form building, and plugin/extension configuration. 
+Then we will populate all areas of the website with the approved copy and images. All content will be  optimized to improve search engine visibility.
+Before launching the website, we thoroughly test the website to ensure it functions flawlessly. This includes, cross-browser and cross-device compatibility testing and performance optimization.
+The client will have the opportunity to review the website through this process and 2 rounds of revisions are included before the website goes live.
+
+We will develop the following custom functionalities and features for the new website:
+	•	TBD
+	•	TBD
+	•	TBD
+
+
+Why WordPress?
+
+Selecting the right platform is essential to ensure the success of your online presence. After careful consideration and analysis, we recommend WordPress as the preferred development platform for your website project. 
+
+Some of the features and benefits of WordPress include:
+User-Friendly Content Management: WordPress is renowned for its intuitive and user-friendly content management system (CMS). It gives you the ability to easily create, edit, and manage your website's content without requiring extensive technical knowledge.
+
+Scalability: It’s scalability allows for seamless expansion as your business grows and evolves. The library of plugins, and extensions also allow us to integrate special features and functionality efficiently, reducing development time and costs.
+
+SEO-Friendly: WordPress is SEO-friendly, with features that facilitate better search engine visibility. Its clean code, customizable permalinks, and a wide array of SEO plugins enable us to optimize your website for search engines, helping you reach a larger audience and achieve higher rankings.
+
+Responsive Design: WordPress themes are built with mobile responsiveness in mind, ensuring that your website looks and functions flawlessly across various devices and screen sizes.
+
+
+
+Estimate
+This estimate was prepared on [DATE].
+
+Service
+Description
+Copywriting
+Interview with client, copywriting for areas outlined in this proposal. 
+Website Design
+Adobe XD prototype of all unique pages, styles, and theme elements.
+Website Development
+Custom WordPress theme development, page building, styling and population, NOTE ANY SPECIAL FUNCTIONALITY OR SITE FEATURES, pre-launch testing and site launch.
+Account Management
+Coordination of project from start to finish, including phone calls and meetings to discuss project details and progress.
+TOTAL
+$0,000
+
+INFORMATION:
+This estimate will be honored for 30 days from the date above. Price accurate to +/- 10% the price quoted here is only for the work described within this estimate. A 50% deposit is required to commence work.
+
+Review
+Once the estimate is approved, Netwave will submit a digital copy of the proposal, our Agency Agreement, and a deposit invoice for payment. Upon signature and receipt of payment, the project will commence. If any new requests for development and/or design, new specs, new documents or anything that Netwave hasn’t already seen is brought up after the project has already started, additional costs can be added to the remaining invoices or can be handled in another phase of the project.
+
+
+Terms and Conditions
+This estimate is governed by the terms and conditions set forth within the Agency Agreement signed by the client. By signing this estimate, the client is agreeing to those terms and the terms set forth within this document and agrees to pay for services rendered.
+If completion of the Company’s obligations under these Terms is prevented or delayed by any act or omission of the Client or its agents, subcontractors, consultants, or employees, Netwave shall not be deemed in breach of its obligations under these Terms or otherwise liable for any costs, charges or losses sustained or incurred by Client.  In each case where the Client delay exceeds 30 days during any phase of the project, the project will be removed from our production schedule and all costs incurred to date will be invoiced to the client at that time, payable upon receipt.  Subsequently, upon continuation of the project, the project will be re-estimated based on the remaining work to be completed. Upon approval, the project shall be placed into our production schedule where it fits at the time. 
+
+Website
+The website estimate is based upon the Client and Agency agreeing to the following process:
+Based upon an approved site map, copy will be developed. The Client is then entitled to one round of revisions. After approval of the copy, the client will be presented with a home page design and an inside page design, including one round of revisions. With the approved copy and design materials, the website will be coded and presented to the client.  Two rounds of revisions (excluding copy and layout already approved) are included before pushing the site live. Any deviation from this process or project scope, such as changes made to layout and copy after coding, may result in project delays and will result in additional costs. The Agency currently supports the latest two versions of the following browsers: Microsoft Edge, Mozilla Firefox, Google Chrome, and Safari. If compatibility with a browser other than these is required, the Agency will provide the additional server at the hourly rate of $150 per hour, which will be added to the final payment. 
+Websites are billed in three installments. A 50% deposit is required to begin work. An additional 25% payment will be required once the design is approved. The remaining balance is due upon approval of the site and before the site is turned live.
+
+
+
+
+Signatures
+
+Client Signature: 
+Company Name						Date
+
+Agency Signature:
+Netwave Interactive Marketing, Inc.  			             Date
+
+
+Sincerely,
+
+Name
+Title
+
+Netwave Interactive Marketing, Inc.
+email@netwaveinteractive.com
+
+
+

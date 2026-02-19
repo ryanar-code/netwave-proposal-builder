@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+Website Audit
+
+
+
+
+Client:
+Name of Client
+
+Prepared by:
+Netwave Interactive
+Executive Summary
+To ensure a company website is safe, secure, and performing, Netwave proposes performing a thorough audit of the [Client URL] website. This assessment process consists of a series of rigorous testing and evaluations. 
+A full website audit includes evaluating the framework and code that the website was built upon and testing plugins, overall speed performance, and website security.
+Upon completion of the audit, Netwave will provide a full recap report of areas tested and the overall website performance results. Also included in the recap report will be callouts of any security threats or poorly coded practices causing poor performance such as outdated plugins or the overall framework. Depending on the state of the plugins and framework of the website, additional costs may be required. If so, Netwave will provide an estimate for approval before proceeding. 
+
+
+Recommended Services:
+Website Audit 
+
+Scope of Work
+
+WordPress Framework Evaluation
+A key factor to ensure a website is secure and operating efficiently is to have it run on the most recent WordPress framework. As new technologies are developed and utilized, WordPress releases framework upgrades. These upgrades assist websites to remain safe from new threats. 
+Netwave will evaluate the current WordPress framework and confirm if an upgrade is necessary.
+
+Content Review
+Netwave will evaluate the current pages on the website and confirm that they are loading properly across current browsers, mobile devices, and tablets. Netwave will also run a full scan for any broken page URLs.
+
+Performance and Security
+Netwave will perform a full website scan to evaluate the website's overall performance. The scan results will display the website’s speed on desktops, smartphones, or tablets and define any areas that are hindering the website to load quickly. Examples include reducing the size or quality of images, updating outdated plugins, or other unnecessary pieces of code.
+Outdated or unnecessary plugins can also pose serious security threats. Netwave will evaluate the plugins installed on the website and determine which are necessary.
+
+Accessibility
+Netwave will evaluate your website to determine if it meets current ADA compliance standards.
+Recap Report
+Upon completing the website scan, Netwave will schedule a time to discuss the full recap report and the threats that were found, addressed, and resolved. We will also include a series of 
+Should additional coding be required to improve the website’s efficiency or technology, Netwave will provide a separate proposal before proceeding.
+
+
+
+Estimate 
+This estimate was prepared on [DATE].
+
+Service
+Description
+Website Audit
+WordPress Framework Evaluation, Content Review, Performance and Security Test, Accessibility Audit. Presentation of recap report. 
+TOTAL
+$500
+
+INFORMATION:
+This estimate will be honored for 30 days from the date above. Price accurate to +/- 10% the price quoted here is only for the work described within this estimate. Payment is due in full before commencing work.
+
+Review
+Once the estimate is approved, Netwave will submit a digital copy of the proposal, our Agency Agreement, and a deposit invoice for payment. Upon signature and receipt of payment, the project will commence. If any new requests for development and/or design, new specs, new documents or anything that Netwave hasn’t already seen is brought up after the project has already started, additional costs can be added to the remaining invoices or can be handled in another phase of the project.
+
+Terms and Conditions
+This estimate is governed by the terms and conditions set forth within the Agency Agreement signed by the client. By signing this estimate, the client is agreeing to those terms and the terms set forth within this document and agrees to pay for services rendered.
+If completion of the Company’s obligations under these Terms is prevented or delayed by any act or omission of the Client or its agents, subcontractors, consultants, or employees, Netwave shall not be deemed in breach of its obligations under these Terms or otherwise liable for any costs, charges or losses sustained or incurred by Client.  In each case where the Client delay exceeds 30 days during any phase of the project, the project will be removed from our production schedule and all costs incurred to date will be invoiced to the client at that time, payable upon receipt.  Subsequently, upon continuation of the project, the project will be re-estimated based on the remaining work to be completed. Upon approval, the project shall be placed into our production schedule where it fits at the time. 
+
+
+
+
+Signatures
+
+Client Signature: 
+Company Name						Date
+
+Agency Signature:
+Netwave Interactive Marketing, Inc.  			             Date
+
+
+Sincerely,
+
+Name
+Title
+
+Netwave Interactive Marketing, Inc.
+email@netwaveinteractive.com
+
+
+
+

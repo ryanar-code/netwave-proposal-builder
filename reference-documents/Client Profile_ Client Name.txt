@@ -1,0 +1,152 @@
+
+
+Client
+Profile
+
+
+
+
+
+
+
+
+
+Client: Company Name
+
+Last Updated:
+Date
+
+
+Client Information
+Company Name: 
+
+Main Point of Contact: 
+
+Role/Title: 
+
+Email: 
+
+Phone: 
+
+Mailing Address:
+
+Website: 
+
+Google Drive Link:
+
+
+Company Overview
+Brief Company Description: 
+
+Industry & Sector:
+
+Revenue Model (B2B, B2C)
+
+Years in Business:
+
+Company Size: 
+e.g., employees, revenue, market
+
+Core Products / Services:
+
+Top 3 Competitors: 
+
+
+Target Audience
+Primary Audience
+
+Geographic Targeting
+
+Key Motivators
+
+
+Goals & Priorities
+What are their 12-month goals?
+
+Do they have a 3-5 year vision?
+
+Growth Focus (new markets, new services, retention)
+
+Pain points:
+
+What’s working:
+
+
+Marketing Budget
+Annual Marketing Budget
+
+Link to budget spreadsheet
+
+
+Source
+Initiate date of contact
+
+How did they find Netwave?
+
+Why did they first contact Netwave?
+
+Why they left their previous agency (if applicable):
+
+
+Opportunity Notes
+Based on what we know about this client’s business, goals, audience, and current marketing efforts, what strategic opportunities are we not yet capitalizing on?
+
+
+
+TBD
+Website
+Website URL
+
+Built By
+
+Year Built
+
+Platform
+
+Hosting Provider
+
+Hosting Credentials
+
+Domain Name Provider
+
+Domain Name Credentials 
+
+Email Provider
+
+Google Analytics Access
+
+Google Business Profile Access
+
+Website Maintenance
+
+IT Contact Information
+
+
+SEO 
+Managed By
+
+Monthly Budget (Net/Gross)
+
+Services
+
+Reports
+
+
+Social Media
+Channels
+
+Managed By
+
+Social Media Overview
+
+
+Digital Advertising
+Managed By
+
+Tactics Used
+
+Reports
+
+Average Campaign Budget
+
+

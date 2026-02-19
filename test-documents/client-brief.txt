@@ -1,0 +1,191 @@
+CLIENT PROJECT BRIEF
+═══════════════════════════════════════════════════════════
+
+CLIENT: GreenLeaf Organics
+PROJECT: Brand Refresh & E-commerce Launch
+DATE: February 10, 2026
+SUBMITTED BY: Sarah Chen, Marketing Director
+
+═══════════════════════════════════════════════════════════
+
+COMPANY BACKGROUND
+───────────────────────────────────────────────────────────
+
+GreenLeaf Organics is a family-owned organic food producer based in Portland, Oregon. Founded in 2015, we've grown from a small farmers market vendor to a regional supplier of organic snacks, granola, and health foods available in 200+ retail locations across the Pacific Northwest.
+
+We're at an inflection point: our products are gaining traction, but our brand identity and digital presence don't reflect our growth or ambitions. We need to modernize while maintaining our authentic, earth-friendly values.
+
+═══════════════════════════════════════════════════════════
+
+PROJECT OBJECTIVES
+───────────────────────────────────────────────────────────
+
+PRIMARY GOAL:
+Launch a direct-to-consumer e-commerce platform to complement our retail presence and test new products directly with our most engaged customers.
+
+SECONDARY GOALS:
+- Refresh brand identity to appeal to younger, health-conscious consumers (25-40)
+- Establish consistent brand guidelines for packaging and marketing
+- Create a scalable digital marketing foundation
+- Build customer database for future marketing initiatives
+
+═══════════════════════════════════════════════════════════
+
+TARGET AUDIENCE
+───────────────────────────────────────────────────────────
+
+PRIMARY AUDIENCE: "Conscious Consumers"
+- Age: 28-42
+- Income: $60K-$120K household
+- Values: Sustainability, health, transparency, local businesses
+- Behavior: Regular Whole Foods/natural grocery shoppers, active on Instagram, subscribe to wellness newsletters
+- Pain points: Difficulty finding truly organic products, skeptical of greenwashing, want convenience without compromising values
+
+SECONDARY AUDIENCE: "Wellness Parents"
+- Age: 30-45
+- Income: $75K-$150K household
+- Values: Family health, clean ingredients, teaching kids good habits
+- Behavior: Meal prep focused, read ingredient labels carefully, involved in school/community
+- Pain points: Time constraints, kid-friendly healthy options limited, want trustworthy brands
+
+═══════════════════════════════════════════════════════════
+
+BRAND PERCEPTION
+───────────────────────────────────────────────────────────
+
+CURRENT STATE:
+- Viewed as authentic and trustworthy by existing customers
+- Packaging feels "homemade" (good and bad - authentic but unprofessional)
+- Strong local reputation but unknown outside Pacific Northwest
+- Social media presence is inconsistent and amateur
+
+DESIRED STATE:
+- Professional yet approachable
+- Premium quality without being pretentious
+- Modern but not trendy
+- Transparent and educational
+- Instagram-worthy while maintaining substance
+
+BRAND ATTRIBUTES (in priority order):
+1. Authentic
+2. Sustainable
+3. High-quality
+4. Approachable
+5. Transparent
+
+═══════════════════════════════════════════════════════════
+
+COMPETITIVE LANDSCAPE
+───────────────────────────────────────────────────────────
+
+DIRECT COMPETITORS:
+- NutraBar Organics (larger, national, but feels corporate)
+- Portland Provisions (similar values, better design, higher prices)
+- Nature's Path (established, but less authentic feeling)
+
+ASPIRATIONAL BRANDS:
+- Hu Kitchen (premium positioning, great storytelling)
+- Simple Mills (clean design, clear messaging)
+- Miyoko's Creamery (transparency, strong founder story)
+
+DIFFERENTIATION:
+- True small-batch production (not faking small for marketing)
+- Direct relationships with local farmers
+- Transparent supply chain - we can name every supplier
+- Active in community - farmer's markets, local events
+- Family story and values drive decisions, not just profit
+
+═══════════════════════════════════════════════════════════
+
+PROJECT SCOPE EXPECTATIONS
+───────────────────────────────────────────────────────────
+
+MUST HAVES:
+□ Updated logo that can work on packaging
+□ Color palette and typography system
+□ Packaging templates for 6 product lines
+□ E-commerce website with subscription functionality
+□ Mobile-optimized shopping experience
+□ Integration with ShipStation for fulfillment
+□ Email marketing setup (Klaviyo preferred)
+□ Basic brand guidelines document
+
+NICE TO HAVES:
+□ Social media templates
+□ Photography direction/guidelines
+□ Packaging for future product lines
+□ Wholesale/B2B portal
+□ Blog/content hub
+□ Recipe section
+
+OUT OF SCOPE:
+□ Photography (we'll handle internally)
+□ Video production
+□ Packaging manufacturing/printing (we have vendor)
+□ Ongoing social media management
+
+═══════════════════════════════════════════════════════════
+
+CONSTRAINTS & CONSIDERATIONS
+───────────────────────────────────────────────────────────
+
+TIMELINE:
+- Target launch: June 1, 2026 (in time for summer season)
+- Critical dates:
+  - Brand review by March 15 (need time for packaging updates)
+  - Website in testing by May 1 (2-week buffer before launch)
+
+BUDGET:
+- Allocated: $85,000 total
+- Breakdown: ~$25K branding, ~$50K website, ~$10K contingency
+- Additional: $15K set aside for paid ads post-launch
+
+TECHNICAL:
+- Must integrate with our existing QuickBooks system
+- Need multi-variant products (size, flavor, subscription)
+- Shipping calculator for regional zones
+- Wholesale pricing structure for existing retail partners
+
+INTERNAL RESOURCES:
+- Sarah (Marketing Director) - main point of contact
+- John (Founder) - final approvals, brand guardian
+- Lisa (Operations) - fulfillment and logistics
+- Marco (Finance) - payment processing, accounting integration
+
+═══════════════════════════════════════════════════════════
+
+SUCCESS METRICS
+───────────────────────────────────────────────────────────
+
+LAUNCH METRICS:
+- Website: 90+ PageSpeed score, <2 second load time
+- Conversion rate: 2%+ (industry benchmark)
+- Mobile usage: expecting 60%+ of traffic
+
+90-DAY POST-LAUNCH GOALS:
+- $50,000 in online revenue
+- 500+ email subscribers
+- 1,000+ website visitors/month
+- 25+ wholesale inquiries through new site
+- 50+ product reviews
+- 15%+ returning customer rate
+
+BRAND METRICS:
+- Brand recognition testing shows improved perception
+- Instagram engagement rate >4%
+- Customer satisfaction score 4.5+/5
+- Successfully transition 2 product lines to new packaging
+
+═══════════════════════════════════════════════════════════
+
+ADDITIONAL NOTES
+───────────────────────────────────────────────────────────
+
+- We have a PR opportunity in June with a local lifestyle magazine - would love to have new branding ready
+- Considering expansion to farmers markets in Seattle by fall - professional presence will help
+- Our founder John is passionate but can be particular - will need patient communication
+- We're open to bold ideas but nothing too corporate or sterile
+- Sustainability in packaging is crucial - prefer eco-friendly printing options
+- We have great customer stories/testimonials to leverage
+
+Contact: sarah@greenleaforganics.com | (503) 555-0142

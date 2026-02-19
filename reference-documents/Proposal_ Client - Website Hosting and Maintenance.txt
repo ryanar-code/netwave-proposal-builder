@@ -1,0 +1,116 @@
+
+
+
+
+
+
+Website Hosting and Maintenance
+
+
+
+
+Client:
+Name of Client
+
+Prepared by:
+Netwave Interactive
+Executive Summary
+To keep your website secure and running smoothly at all times, Netwave recommends providing quarterly maintenance on the newly launched website. As technology continues to improve, new WordPress framework and plugin versions will be released.
+Netwave will run a full website scan to check for any website errors or vulnerabilities that should be addressed/resolved. Upon completion, Netwave will review the scan report and determine if the framework and/or plugins need to be updated. If so, Netwave will proceed with applying the updates to the website saved on our staging (test) server to ensure there is not an interruption on the live website.
+If there are extensive changes that need to be resolved, Netwave will provide a formal estimate prior to proceeding with the suggested changes.  
+For added security, Netwave suggests hosting the website on our own dedicated server. This means, only the websites that Netwave hosts are able to be on our server. This ensures our clients that they are not sharing hosting space with other websites that may cause interference in their business.
+
+
+
+Recommended Services:
+1. Hosting on Dedicated Server 
+2. Quarterly Web Maintenance
+
+Scope of Work
+
+1. Website Hosting
+
+Netwave provides hosting on a privately managed, dedicated server reserved exclusively for our clients. Unlike standard shared hosting environments, our server is not used by outside businesses—ensuring greater control, enhanced performance, and a more secure environment for every site we maintain.
+Netwave performs weekly/monthly website backups to ensure a clean, secure version is always available. In the event of a threat, we can quickly restore the site using one of these protected backup files.
+To maintain the integrity and security of Netwave’s hosting environment, Netwave reserves the right to control, limit, and monitor access to any website hosted on its servers. Only verified and authorized individuals approved by Netwave may be granted access to the website’s administrative, code, or development environments.
+Any unverified or unauthorized third-party developers, contractors, or website managers who attempt to modify code or server files will be considered a potential security risk. Netwave will not grant or maintain access for such users.
+If the Client requests that unapproved individuals be granted access to the hosted environment, Netwave will not be able to continue providing hosting services. In such an event, the Client will be required to transition their website hosting to another provider within thirty (30) days of written notice from Netwave. Netwave will cooperate in good faith during the transition process, but will bear no responsibility for downtime, loss of data, or functionality issues once the hosting services are terminated.
+
+Here are the technical specifications offered within Netwave’s ongoing website hosting:
+
+	•	Website Backup Saved Daily/Weekly/Monthly
+	•	Standard DDoS Protection
+	•	ServerSecure Advanced Security
+	•	Gigabit Uplink
+	•	100% Network and Power Uptime SLAs
+	•	Vulnerability Assessment
+	•	Linux Server Protection
+	•	24/7 Proactive Monitoring of Services on Control Panels, FTP, HTTP, MySQL, MSSQL, Pin, Pop3, SMTP, RDP, SSH, DNS, Raid, and Disc Usage
+
+
+2. Quarterly Website Maintenance
+
+By continually updating the WordPress framework and associated plugins, your website will be safe and secure from internet threats. The following is the process Netwave will follow to ensure website safety.
+
+Backup Website
+Netwave will download the latest version of the live website on our local server, replacing the previously saved version.
+
+
+
+
+
+Website Scan
+Once a copy of the website has been saved on Netwave’s servers, we will initiate a full website scan. Netwave scans the website version that is saved on our server to ensure that the testing does not slow down the live website. The scan will provide an extensive error report listing outdated website plugins, vulnerabilities, and threats that should be addressed to help improve website performance since the previous scan. Sometimes there are numerous updates needed; other times, no changes are needed. 
+
+
+Resolve Error Log
+Upon completion of the full website scan, Netwave will address and resolve each error. At this time, Netwave will also provide recommendations if certain plugins should be updated, replaced, or removed if not needed.
+
+Recap Report
+Upon the completion of the website scan, Netwave will provide a full recap report of the threats that were found, addressed and resolved. Should additional coding be required to improve the website’s efficiency or technology, Netwave will provide a separate proposal before proceeding
+
+
+Estimate
+This estimate was prepared on [DATE].
+
+Service
+Description
+Website Hosting
+Website hosting on Netwave’s dedicated cloud server.
+Website Maintenance
+Quarterly, Netwave will make a backup of the latest version of website on our internal server, initiate a full website scan to check for threats / vulnerabilities, resolve vulnerabilities/errors, and provide a recap report.
+
+TOTAL
+$0
+
+INFORMATION:
+This estimate will be honored for 30 days from the date above. Price accurate to +/- 10% the price quoted here is only for the work described within this estimate. Website hosting and maintenance are billed quarterly in advance. 30 days written notice is required for the cancellation of maintenance and hosting services.
+
+Review
+Once the estimate is approved, Netwave will submit a digital copy of the proposal, our Agency Agreement, and a deposit invoice for payment. Upon signature and receipt of payment, the project will commence. If any new requests for development and/or design, new specs, new documents or anything that Netwave hasn’t already seen is brought up after the project has already started, additional costs can be added to the remaining invoices or can be handled in another phase of the project.
+
+Terms and Conditions
+This estimate is governed by the terms and conditions set forth within the Agency Agreement signed by the client. By signing this estimate, the client is agreeing to those terms and the terms set forth within this document and agrees to pay for services rendered.
+If completion of the Company’s obligations under these Terms is prevented or delayed by any act or omission of the Client or its agents, subcontractors, consultants, or employees, Netwave shall not be deemed in breach of its obligations under these Terms or otherwise liable for any costs, charges or losses sustained or incurred by Client.  In each case where the Client delay exceeds 30 days during any phase of the project, the project will be removed from our production schedule and all costs incurred to date will be invoiced to the client at that time, payable upon receipt.  Subsequently, upon continuation of the project, the project will be re-estimated based on the remaining work to be completed. Upon approval, the project shall be placed into our production schedule where it fits at the time. 
+
+
+
+
+Signatures
+
+Client Signature: 
+Company Name						Date
+
+Agency Signature:
+Netwave Interactive Marketing, Inc.  			             Date
+
+
+Sincerely,
+
+Name
+Title
+
+Netwave Interactive Marketing, Inc.
+email@netwaveinteractive.com
+
+
