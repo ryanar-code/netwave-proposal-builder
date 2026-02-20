@@ -91,7 +91,7 @@ ${JSON.stringify(packagesContext, null, 2)}
 AVAILABLE SERVICES BY CATEGORY (for custom builds):
 ${Object.entries(servicesGrouped || {}).map(([category, svcs]) => `
 ${category.toUpperCase()}:
-${svcs.map((s: any) => `  - ${s.service_name}: $${s.default_rate}/${s.billing_unit}`).join('\n')}`).join('\n')}
+${(svcs as any[]).map((s: any) => `  - ${s.service_name}: $${s.default_rate}/${s.billing_unit}`).join('\n')}`).join('\n')}
 
 TASK:
 1. Analyze the client's needs from their documents
