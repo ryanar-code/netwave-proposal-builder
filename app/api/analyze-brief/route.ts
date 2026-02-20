@@ -26,14 +26,7 @@ export async function POST(request: NextRequest) {
     for (const file of files) {
       try {
         const buffer = Buffer.from(await file.arrayBuffer());
-        let text = '';
-
-        if (file.name.endsWith('.pdf')) {
-          // For now, skip PDF parsing in production - can be added later with proper setup
-          text = `[PDF file: ${file.name} - content parsing not available]`;
-        } else {
-          text = buffer.toString('utf-8');
-        }
+        const text = buffer.toString('utf-8');
 
         if (text.trim()) {
           documents.push(`--- ${file.name} ---\n${text}\n`);

@@ -58,7 +58,7 @@ export default function ProposalBuilderPage() {
     const droppedFiles = Array.from(e.dataTransfer.files);
     const validFiles = droppedFiles.filter(file => {
       const extension = file.name.split('.').pop()?.toLowerCase();
-      return ['pdf', 'txt', 'md', 'doc', 'docx'].includes(extension || '');
+      return ['txt', 'md', 'doc', 'docx'].includes(extension || '');
     });
 
     if (validFiles.length > 0) {
@@ -66,7 +66,7 @@ export default function ProposalBuilderPage() {
     }
 
     if (validFiles.length < droppedFiles.length) {
-      setErrorMessage('Some files were skipped. Only PDF, TXT, MD, DOC, and DOCX files are supported.');
+      setErrorMessage('Some files were skipped. Only TXT, MD, DOC, and DOCX files are supported.');
     }
   };
 
@@ -515,13 +515,13 @@ ${sowContent.split('\n').map(line => {
                 <p className="text-sm text-gray-800">
                   <span className="font-semibold text-blue-600">Click to upload</span> or drag and drop
                 </p>
-                <p className="text-xs text-gray-700 mt-1">PDF, TXT, MD, DOC, DOCX (max 10MB each)</p>
+                <p className="text-xs text-gray-700 mt-1">TXT, MD, DOC, DOCX (max 10MB each)</p>
               </div>
               <input
                 ref={fileInputRef}
                 type="file"
                 multiple
-                accept=".pdf,.txt,.md,.doc,.docx"
+                accept=".txt,.md,.doc,.docx"
                 onChange={handleFileSelect}
                 className="hidden"
               />
