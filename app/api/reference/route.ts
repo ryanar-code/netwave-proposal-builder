@@ -1,62 +1,79 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { createClient } from '@supabase/supabase-js';
 
 export async function GET() {
   try {
-    const referenceDir = path.join(process.cwd(), 'reference-documents');
+    // Use anon key directly for public read-only access
+    const supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+    );
 
-    // Read all files in reference directory
-    const files = fs.readdirSync(referenceDir);
+    // Fetch templates (proposals)
+    const { data: templates, error: templatesError } = await supabase
+      .from('templates')
+      .select('*')
+      .order('name');
 
-    // Categorize files
-    const proposals = files
-      .filter(f => f.startsWith('Proposal_') && f.endsWith('.txt'))
-      .map(f => {
-        const content = fs.readFileSync(path.join(referenceDir, f), 'utf-8');
-        const name = f.replace('Proposal_ ', '').replace('.txt', '');
-        const preview = content.substring(0, 200);
+    if (templatesError) throw templatesError;
 
-        return {
-          name,
-          filename: f,
-          type: 'proposal',
-          preview,
-          hasContent: content.length > 0,
-          content: content // Full content for generation
-        };
-      });
+    // Fetch pricing services grouped by service_type
+    const { data: pricingData, error: pricingError } = await supabase
+      .from('pricing_services')
+      .select('*')
+      .order('service_type, sort_order');
 
-    const estimates = files
-      .filter(f => f.startsWith('Internal Estimate_') && f.endsWith('.csv'))
-      .map(f => {
-        const content = fs.readFileSync(path.join(referenceDir, f), 'utf-8');
-        const name = f.replace('Internal Estimate_ ', '').replace('.csv', '');
-        const rows = content.split('\n').length - 1; // Minus header
+    if (pricingError) throw pricingError;
 
-        return {
-          name,
-          filename: f,
-          type: 'estimate',
-          rows,
-          content: content // CSV content for pricing
-        };
-      });
+    // Fetch client profile
+    const { data: profileData, error: profileError } = await supabase
+      .from('client_profiles')
+      .select('*')
+      .eq('is_default', true)
+      .single();
 
-    // Read client profile
-    const clientProfileFile = files.find(f => f.startsWith('Client Profile_') && f.endsWith('.txt'));
-    const clientProfile = clientProfileFile
-      ? fs.readFileSync(path.join(referenceDir, clientProfileFile), 'utf-8')
-      : null;
+    if (profileError && profileError.code !== 'PGRST116') throw profileError;
+
+    // Format templates for frontend
+    const proposals = templates.map(t => ({
+      id: t.id,
+      name: t.name,
+      category: t.category,
+      type: 'proposal',
+      description: t.description,
+      preview: t.content.substring(0, 200),
+      hasContent: t.content.length > 0,
+      content: t.content,
+      metadata: t.metadata
+    }));
+
+    // Group pricing by service_type
+    const pricingByType = pricingData.reduce((acc, item) => {
+      if (!acc[item.service_type]) {
+        acc[item.service_type] = [];
+      }
+      acc[item.service_type].push(item);
+      return acc;
+    }, {} as Record<string, any[]>);
+
+    // Format estimates for frontend
+    const estimates = Object.entries(pricingByType).map(([serviceType, items]) => ({
+      name: serviceType,
+      type: 'estimate',
+      rows: items.length,
+      items: items,
+      // Format as CSV-like structure for compatibility
+      content: formatAsCsv(items)
+    }));
 
     return NextResponse.json({
       proposals,
       estimates,
-      clientProfile,
+      clientProfile: profileData?.content || null,
       summary: {
         totalProposals: proposals.length,
         totalEstimates: estimates.length,
-        hasClientProfile: !!clientProfile,
+        hasClientProfile: !!profileData,
       }
     });
   } catch (error) {
@@ -66,4 +83,18 @@ export async function GET() {
       { status: 500 }
     );
   }
+}
+
+// Helper to format pricing data as CSV for compatibility
+function formatAsCsv(items: any[]): string {
+  let csv = 'Tier,Line Item,Hours\n';
+
+  items.forEach(item => {
+    const tier = item.tier_name || '';
+    const lineItem = item.line_item.replace(/,/g, ';'); // Escape commas
+    const hours = item.hours || '';
+    csv += `${tier},${lineItem},${hours}\n`;
+  });
+
+  return csv;
 }

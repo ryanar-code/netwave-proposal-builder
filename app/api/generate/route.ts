@@ -1,9 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
 import Anthropic from '@anthropic-ai/sdk';
+import { createClient } from '@supabase/supabase-js';
 
 const anthropic = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
 });
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+);
 
 export async function POST(request: NextRequest) {
   try {
@@ -19,6 +25,17 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       );
     }
+
+    // Fetch reference data from Supabase
+    const [templatesResult, pricingResult, profileResult] = await Promise.all([
+      supabase.from('templates').select('*'),
+      supabase.from('pricing_services').select('*').order('service_type, sort_order'),
+      supabase.from('client_profiles').select('*').eq('is_default', true).single()
+    ]);
+
+    const templates = templatesResult.data || [];
+    const pricingServices = pricingResult.data || [];
+    const clientProfile = profileResult.data?.content || '';
 
     // Extract text from uploaded files
     const documents: string[] = [];
@@ -72,7 +89,10 @@ export async function POST(request: NextRequest) {
       clientName,
       projectType,
       formattedDeadline,
-      documents.join('\n\n')
+      documents.join('\n\n'),
+      templates,
+      pricingServices,
+      clientProfile
     );
 
     // Call Claude API
@@ -114,8 +134,40 @@ function getDocumentPrompt(
   clientName: string,
   projectType: string,
   deadline: string,
-  contextDocs: string
+  contextDocs: string,
+  templates: any[],
+  pricingServices: any[],
+  clientProfile: string
 ): { prompt: string; maxTokens: number } {
+
+  // Find relevant template based on project type
+  const relevantTemplate = templates.find(t =>
+    projectType.toLowerCase().includes(t.category.toLowerCase()) ||
+    t.name.toLowerCase().includes(projectType.toLowerCase())
+  );
+
+  // Group pricing by service type
+  const pricingByType = pricingServices.reduce((acc, item) => {
+    if (!acc[item.service_type]) acc[item.service_type] = [];
+    acc[item.service_type].push(item);
+    return acc;
+  }, {} as Record<string, any[]>);
+
+  const templateContext = relevantTemplate
+    ? `\n\nRELEVANT PROPOSAL TEMPLATE:\n${relevantTemplate.content}\n`
+    : '';
+
+  const pricingContext = Object.keys(pricingByType).length > 0
+    ? `\n\nAVAILABLE PRICING SERVICES:\n${Object.entries(pricingByType).map(([type, items]) =>
+        `\n${type.toUpperCase()}:\n${items.map(item =>
+          `- ${item.tier_name || ''} ${item.line_item}: ${item.hours ? item.hours + ' hrs' : 'TBD'}`
+        ).join('\n')}`
+      ).join('\n')}\n`
+    : '';
+
+  const profileContext = clientProfile
+    ? `\n\nCLIENT PROFILE TEMPLATE:\n${clientProfile}\n`
+    : '';
 
   const baseContext = `CONTEXT DOCUMENTS:
 ${contextDocs}
@@ -123,7 +175,7 @@ ${contextDocs}
 CLIENT: ${clientName}
 PROJECT TYPE: ${projectType}
 DEADLINE: ${deadline}
-
+${templateContext}${pricingContext}${profileContext}
 NETWAVE RATES:
 - Account Service/Production: $100/hr
 - Creative Direction: $150/hr

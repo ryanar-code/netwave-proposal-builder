@@ -66,13 +66,13 @@ function OutputContent() {
           <div className="p-8">
             {decodedContent ? (
               <div className="prose prose-sm sm:prose max-w-none">
-                <pre className="whitespace-pre-wrap font-sans text-gray-800 leading-relaxed">
+                <pre className="whitespace-pre-wrap font-sans text-gray-900 leading-relaxed">
                   {decodedContent}
                 </pre>
               </div>
             ) : (
               <div className="text-center py-12">
-                <p className="text-gray-500">No content to display</p>
+                <p className="text-gray-700">No content to display</p>
                 <Link
                   href="/"
                   className="mt-4 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
