@@ -151,7 +151,7 @@ function getDocumentPrompt(
 
   const pricingContext = Object.keys(pricingByType).length > 0
     ? `\n\nAVAILABLE PRICING SERVICES:\n${Object.entries(pricingByType).map(([type, items]) =>
-        `\n${type.toUpperCase()}:\n${items.map(item =>
+        `\n${type.toUpperCase()}:\n${(items as any[]).map((item: any) =>
           `- ${item.tier_name || ''} ${item.line_item}: ${item.hours ? item.hours + ' hrs' : 'TBD'}`
         ).join('\n')}`
       ).join('\n')}\n`
