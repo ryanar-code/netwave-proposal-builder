@@ -57,14 +57,17 @@ export async function GET() {
     }, {} as Record<string, any[]>);
 
     // Format estimates for frontend
-    const estimates = Object.entries(pricingByType).map(([serviceType, items]) => ({
-      name: serviceType,
-      type: 'estimate',
-      rows: items.length,
-      items: items,
-      // Format as CSV-like structure for compatibility
-      content: formatAsCsv(items)
-    }));
+    const estimates = Object.entries(pricingByType).map(([serviceType, items]) => {
+      const itemsArray = items as any[];
+      return {
+        name: serviceType,
+        type: 'estimate',
+        rows: itemsArray.length,
+        items: itemsArray,
+        // Format as CSV-like structure for compatibility
+        content: formatAsCsv(itemsArray)
+      };
+    });
 
     return NextResponse.json({
       proposals,
