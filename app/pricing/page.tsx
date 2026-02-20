@@ -228,7 +228,7 @@ export default function PricingPage() {
                   {category}
                 </h3>
                 <div className="space-y-2">
-                  {categoryServices.map((service: any) => (
+                  {(categoryServices as any[]).map((service: any) => (
                     <div key={service.id} className="flex items-center justify-between py-2 border-b border-gray-100 last:border-0">
                       <span className="text-sm text-gray-800">{service.service_name}</span>
                       <div className="text-right">
