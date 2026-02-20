@@ -29,9 +29,8 @@ export async function POST(request: NextRequest) {
         let text = '';
 
         if (file.name.endsWith('.pdf')) {
-          const pdfParse = (await import('pdf-parse')).default;
-          const pdfData = await pdfParse(buffer);
-          text = pdfData.text;
+          // For now, skip PDF parsing in production - can be added later with proper setup
+          text = `[PDF file: ${file.name} - content parsing not available]`;
         } else {
           text = buffer.toString('utf-8');
         }
